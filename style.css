@@ -33,7 +33,7 @@ a { color: inherit; text-decoration: none; }
 em { font-style: italic; color: var(--sand); font-weight: 400; }
 
 /* === LAYOUT === */
-section { padding: 96px 24px; }
+section { padding: 30px 24px; }
 @media (min-width: 900px) {
   section { padding: 120px 96px; }
 }
@@ -267,8 +267,15 @@ section > * { max-width: 1200px; margin: 0 auto; }
 @media (max-width: 700px) {
   .nav__inner { padding: 0 20px; height: 64px; }
   .nav__links.is-open { top: 64px; padding: 20px; }
-  .hero { padding: 110px 24px 80px; }
-  .hero__title { font-size: 2.4rem; }
+
+  .hero {
+    min-height: auto;          /* ← убираем 100vh */
+    padding: 110px 24px 64px;  /* ← меньше нижний отступ */
+    background: url('images/kids-04.jpg') center center / cover no-repeat;
+  }
+
+  .hero__title { font-size: 2.4rem; margin-bottom: 24px; }
+  .hero__text { font-size: 1rem; margin-bottom: 32px; }
 }
 
 /* === BUTTONS === */
@@ -373,6 +380,7 @@ section > * { max-width: 1200px; margin: 0 auto; }
   padding: 40px;
   border: 1px solid var(--brown);
   background: var(--dark);
+  margin: 15px auto 0;
 }
 @media (min-width: 800px) {
   .price-block {
@@ -580,6 +588,7 @@ section > * { max-width: 1200px; margin: 0 auto; }
   color: var(--brown);
   font-weight: 300;
 }
+
 @media (min-width: 700px) {
   .footer__inner { flex-direction: row; }
 }
@@ -610,4 +619,51 @@ section > * { max-width: 1200px; margin: 0 auto; }
 }
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* === SERVICE CARDS (3 карточки) === */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-bottom: 56px;
+}
+@media (min-width: 800px) {
+  .services-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+}
+
+.service-card {
+  padding: 32px;
+  border: 1px solid var(--border);
+  background: var(--dark);
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.service-card:hover { border-color: var(--brown); }
+
+.service-card__tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--sand);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.service-card__title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 14px;
+  line-height: 1.3;
+  color: var(--cream);
+}
+
+.service-card__text {
+  color: var(--muted);
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }

@@ -1,257 +1,257 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Настя Гукова — семейная фотография</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- NAV -->
-    <header class="nav" id="nav">
-      <div class="nav__inner">
-        <a href="#hero" class="nav__logo">Настя Гукова</a>
-        <nav class="nav__links" id="navLinks">
-          <a href="#hero">Главная</a>
-          <a href="#portfolio">Портфолио</a>
-          <a href="#services">Услуги</a>
-          <a href="#about">Обо мне</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contacts">Контакты</a>
-        </nav>
-        <button class="nav__burger" id="burger" aria-label="Меню">
-          <span></span><span></span><span></span>
-        </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Настя Гукова — семейная фотография</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Настя Гукова</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#hero">Главная</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#services">Услуги</a>
+        <a href="#about">Обо мне</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <!-- <div class="hero__overlay"></div> -->
+    <div class="hero__content">
+      <p class="hero__label">Семейная фотография · Краснодар</p>
+      <h1 class="hero__title">
+        Снимаю жизнь<br />
+        <em>такой, какая она есть</em>
+      </h1>
+      <p class="hero__text">
+        Я снимаю вашу семью дома и на улице — без постановок, без команд
+        «улыбнитесь». Только живая жизнь, которую вы потом захотите
+        пересматривать снова и снова.
+      </p>
+      <div class="hero__actions">
+        <a href="sms:+79181264463" class="btn btn--primary">Записаться</a>
+        <a href="#portfolio" class="btn btn--ghost">Портфолио</a>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- HERO -->
-    <section id="hero" class="hero">
-      <!-- <div class="hero__overlay"></div> -->
-      <div class="hero__content">
-        <p class="hero__label">Семейная фотография · Краснодар</p>
-        <h1 class="hero__title">
-          Снимаю жизнь<br />
-          <em>такой, какая она есть</em>
-        </h1>
-        <p class="hero__text">
-          Я снимаю вашу семью дома и на улице — без постановок, без команд
-          «улыбнитесь». Только живая жизнь, которую вы потом захотите
-          пересматривать снова и снова.
-        </p>
-        <div class="hero__actions">
-          <a href="#contacts" class="btn btn--primary">Записаться</a>
-          <a href="#portfolio" class="btn btn--ghost">Портфолио</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- PHILOSOPHY -->
-    <section id="about-short" class="section">
-      <div class="grid-2">
-        <div>
-          <p class="label">Подход</p>
-          <h2 class="heading">
-            Моменты, которые вы не заметите сегодня — но будете ценить через
-            годы
-          </h2>
-          <p class="text">
-            Помните, как ваш ребёнок смеялся в прошлый вторник? Как пах его
-            затылок после ванны? Как он засыпал, свернувшись калачиком на
-            диване?
-          </p>
-          <p class="text">
-            Этот формат — для тех, кто хочет сохранить не идеальный снимок, а
-            настоящую жизнь. Беспорядок на кухне, ссоры за завтраком, внезапный
-            смех — всё это ваша семья.
-          </p>
-          <ul class="numbered">
-            <li><span>01</span> Никаких поз и команд</li>
-            <li><span>02</span> Съёмка дома, в комфорте и уюте</li>
-            <li><span>03</span> Смех, объятия, а иногда и слёзы</li>
-          </ul>
-        </div>
-        <div class="image-block">
-          <img
-<img src="images/kids-02.jpg" alt="Ребенок" />
-          <span class="image-block__frame"></span>
-        </div>
-      </div>
-    </section>
-
-    <!-- PORTFOLIO -->
-    <section id="portfolio" class="section">
-      <div class="section__head">
-        <div>
-          <p class="label">Работы</p>
-          <h2 class="heading">Портфолио</h2>
-        </div>
-        <a href="#contacts" class="section__link">Смотреть все</a>
-      </div>
-      <div class="portfolio" id="portfolioGrid"></div>
-    </section>
-
-    <!-- WHO IS THIS FOR -->
-    <section id="for-whom" class="section section--alt">
-      <p class="label">Для кого</p>
-      <h2 class="heading">Это для вас, если…</h2>
-      <div class="grid-3">
-        <div class="num-block">
-          <span class="num-block__num">01</span>
-          <h3>Устали от студий</h3>
-          <p>
-            Студийные съёмки с одинаковыми позами — не ваше. Вы хотите живые
-            кадры, не открытки.
-          </p>
-        </div>
-        <div class="num-block">
-          <span class="num-block__num">02</span>
-          <h3>Хотите запомнить это время</h3>
-          <p>
-            Не для соцсетей, а для себя. Чтобы через годы вспомнить — каким оно
-            было.
-          </p>
-        </div>
-        <div class="num-block">
-          <span class="num-block__num">03</span>
-          <h3>Думаете о будущем</h3>
-          <p>
-            Через 20 лет ваши дети покажут эти фотографии своим детям. Дайте им
-            что-то настоящее.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="section">
-      <p class="label">Услуги</p>
-      <h2 class="heading">Что я снимаю</h2>
-
-      <div class="services-grid" id="servicesGrid"></div>
-
-      <div class="price-block">
-        <div class="price-block__info">
-          <p class="label">Стоимость</p>
-          <p class="price-block__value">
-            <strong>8 000 ₽</strong> <span>/ час</span>
-          </p>
-          <p class="price-block__note">
-            Продолжительность подбираем вместе под вашу ситуацию
-          </p>
-        </div>
-        <a href="#contacts" class="btn btn--primary">Записаться</a>
-      </div>
-    </section>
-
-    <!-- NOT FOR EVERYONE -->
-    <section id="not-for" class="section">
-      <div class="narrow">
-        <p class="label">Честно</p>
-        <h2 class="heading">Это не для всех</h2>
+  <!-- PHILOSOPHY -->
+  <section id="about-short" class="section">
+    <div class="grid-2">
+      <div>
+        <p class="label">Подход</p>
+        <h2 class="heading">
+          Моменты, которые вы не заметите сегодня — но будете ценить через
+          годы
+        </h2>
         <p class="text">
-          Я не снимаю постановочные семейные портреты. Если вам нужны одинаковые
-          позы, красивые наряды и идеальные улыбки — мой формат вам не подойдёт.
+          Помните, как ваш ребёнок смеялся в прошлый вторник? Как пах его
+          затылок после ванны? Как он засыпал, свернувшись калачиком на
+          диване?
         </p>
-        <p class="text">Мой формат также не подходит, если:</p>
-        <ul class="cross-list">
-          <li>Вы хотите контролировать каждый кадр</li>
-          <li>Вас смущает, что дома «не убрано»</li>
-          <li>Вы ищете ретушированные студийные снимки</li>
-          <li>
-            Детям некомфортно с незнакомыми людьми (бывает, это нормально)
-          </li>
+        <p class="text">
+          Этот формат — для тех, кто хочет сохранить не идеальный снимок, а
+          настоящую жизнь. Беспорядок на кухне, ссоры за завтраком, внезапный
+          смех — всё это ваша семья.
+        </p>
+        <ul class="numbered">
+          <li><span>01</span> Никаких поз и команд</li>
+          <li><span>02</span> Съёмка дома, в комфорте и уюте</li>
+          <li><span>03</span> Смех, объятия, а иногда и слёзы</li>
         </ul>
       </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="grid-2">
-        <div class="image-block">
-          <img src="images/about.jpg" alt="Настя Гукова — фотограф" />
-          <span class="image-block__frame image-block__frame--tr"></span>
-        </div>
-        <div>
-          <p class="label">Обо мне</p>
-          <h2 class="heading">Настя Гукова</h2>
-          <p class="text">
-            Я из Краснодара. Снимаю семьи, беременность и женский портрет.
-          </p>
-          <p class="text">
-            Долго снимала свадьбы и работала в модельном агентстве. Это была
-            хорошая школа. Но постепенно поняла, что меня больше всего трогает
-            репортаж — когда ничего не срежиссировано и всё происходит само.
-          </p>
-          <p class="text">
-            Сейчас я всё меньше снимаю в студии. Мне важнее поймать ваши
-            настоящие эмоции — те, что случаются сами. Без позирования, без
-            выстроенного кадра. Просто момент, который невозможно повторить.
-          </p>
-          <a href="#contacts" class="btn btn--ghost">Написать мне</a>
-        </div>
+      <div class="image-block">
+        <img <img src="images/kids-02.jpg" alt="Ребенок" />
+        <span class="image-block__frame"></span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- FAQ -->
-    <section id="faq" class="section">
-      <div class="narrow">
-        <p class="label">FAQ</p>
-        <h2 class="heading">Часто задают</h2>
-        <div class="faq" id="faqList"></div>
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="section__head">
+      <div>
+        <p class="label">Работы</p>
+        <h2 class="heading">Портфолио</h2>
       </div>
-    </section>
+      <a href="#contacts" class="section__link">Смотреть все</a>
+    </div>
+    <div class="portfolio" id="portfolioGrid"></div>
+  </section>
 
-    <!-- CONTACTS -->
-    <section id="contacts" class="section section--alt">
-      <div class="grid-2">
-        <div>
-          <p class="label">Контакты</p>
-          <h2 class="heading">Напишите мне</h2>
-          <p class="text">
-            Расскажите немного о вашей семье — и мы договоримся о встрече.
-            Отвечаю в течение дня.
-          </p>
-          <div class="contacts-list">
-            <div>
-              <span class="contacts-list__label">Телефон</span>
-              <a href="tel:+79181264463">+7 918 126 44 63</a>
+  <!-- WHO IS THIS FOR -->
+  <section id="for-whom" class="section section--alt">
+    <p class="label">Для кого</p>
+    <h2 class="heading">Это для вас, если…</h2>
+    <div class="grid-3">
+      <div class="num-block">
+        <span class="num-block__num">01</span>
+        <h3>Устали от студий</h3>
+        <p>
+          Студийные съёмки с одинаковыми позами — не ваше. Вы хотите живые
+          кадры, не открытки.
+        </p>
+      </div>
+      <div class="num-block">
+        <span class="num-block__num">02</span>
+        <h3>Хотите запомнить это время</h3>
+        <p>
+          Не для соцсетей, а для себя. Чтобы через годы вспомнить — каким оно
+          было.
+        </p>
+      </div>
+      <div class="num-block">
+        <span class="num-block__num">03</span>
+        <h3>Думаете о будущем</h3>
+        <p>
+          Через 20 лет ваши дети покажут эти фотографии своим детям. Дайте им
+          что-то настоящее.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <p class="label">Услуги</p>
+    <h2 class="heading">Что я снимаю</h2>
+
+    <div class="services-grid" id="servicesGrid"></div>
+
+    <div class="price-block">
+      <div class="price-block__info">
+        <p class="label">Стоимость</p>
+        <p class="price-block__value">
+          <strong>8 000 ₽</strong> <span>/ час</span>
+        </p>
+        <p class="price-block__note">
+          Продолжительность подбираем вместе под вашу ситуацию
+        </p>
+      </div>
+      <a href="#contacts" class="btn btn--primary">Записаться</a>
+    </div>
+  </section>
+
+  <!-- NOT FOR EVERYONE -->
+  <section id="not-for" class="section">
+    <div class="narrow">
+      <p class="label">Честно</p>
+      <h2 class="heading">Это не для всех</h2>
+      <p class="text">
+        Я не снимаю постановочные семейные портреты. Если вам нужны одинаковые
+        позы, красивые наряды и идеальные улыбки — мой формат вам не подойдёт.
+      </p>
+      <p class="text">Мой формат также не подходит, если:</p>
+      <ul class="cross-list">
+        <li>Вы хотите контролировать каждый кадр</li>
+        <li>Вас смущает, что дома «не убрано»</li>
+        <li>Вы ищете ретушированные студийные снимки</li>
+        <li>
+          Детям некомфортно с незнакомыми людьми (бывает, это нормально)
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="grid-2">
+      <div class="image-block">
+        <img src="images/about.jpg" alt="Настя Гукова — фотограф" />
+        <span class="image-block__frame image-block__frame--tr"></span>
+      </div>
+      <div>
+        <p class="label">Обо мне</p>
+        <h2 class="heading">Настя Гукова</h2>
+        <p class="text">
+          Я из Краснодара. Снимаю семьи, беременность и женский портрет.
+        </p>
+        <p class="text">
+          Долго снимала свадьбы и работала в модельном агентстве. Это была
+          хорошая школа. Но постепенно поняла, что меня больше всего трогает
+          репортаж — когда ничего не срежиссировано и всё происходит само.
+        </p>
+        <p class="text">
+          Сейчас я всё меньше снимаю в студии. Мне важнее поймать ваши
+          настоящие эмоции — те, что случаются сами. Без позирования, без
+          выстроенного кадра. Просто момент, который невозможно повторить.
+        </p>
+        <a href="#contacts" class="btn btn--ghost">Написать мне</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="narrow">
+      <p class="label">FAQ</p>
+      <h2 class="heading">Часто задают</h2>
+      <div class="faq" id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="section section--alt">
+    <div class="grid-2">
+      <div>
+        <p class="label">Контакты</p>
+        <h2 class="heading">Напишите мне</h2>
+        <p class="text">
+          Расскажите немного о вашей семье — и мы договоримся о встрече.
+          Отвечаю в течение дня.
+        </p>
+        <div class="contacts-list">
+          <div>
+            <span class="contacts-list__label">Телефон</span>
+            <a href="tel:+79181264463">+7 918 126 44 63</a>
+          </div>
+          <div>
+            <span class="contacts-list__label">Мессенджеры</span>
+            <div class="contacts-list__row">
+              <a href="#" class="btn btn--ghost btn--sm">MAX</a>
+              <a href="https://t.me/agukova" class="btn btn--ghost btn--sm">Telegram</a>
             </div>
-            <div>
-              <span class="contacts-list__label">Мессенджеры</span>
-              <div class="contacts-list__row">
-                <a href="#" class="btn btn--ghost btn--sm">WhatsApp</a>
-                <a href="#" class="btn btn--ghost btn--sm">Telegram</a>
-              </div>
-            </div>
-            <div>
-              <span class="contacts-list__label">Город</span>
-              <span>Краснодар</span>
-            </div>
+          </div>
+          <div>
+            <span class="contacts-list__label">Город</span>
+            <span>Краснодар</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="footer__inner">
-        <a href="#hero" class="footer__logo">Настя Гукова</a>
-        <p>Семейная фотография · Краснодар · 2026</p>
-        <div class="footer__links">
-          <a href="#">ВКонтакте</a>
-          <a href="#">Instagram</a>
-        </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="#hero" class="footer__logo">Настя Гукова</a>
+      <p>Семейная фотография · Краснодар · 2026</p>
+      <div class="footer__links">
+        <a href="#">ВКонтакте</a>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="portfolio.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <script src="portfolio.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
